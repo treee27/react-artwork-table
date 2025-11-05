@@ -2,11 +2,6 @@ Artwork Table - React Application
 
 A React application built with TypeScript and PrimeReact that displays artwork data from the Art Institute of Chicago API with server-side pagination and persistent row selection.
 
-https://img.shields.io/badge/React-18.2.0-blue
-https://img.shields.io/badge/TypeScript-5.0.0-blue
-https://img.shields.io/badge/Vite-4.4.0-purple
-https://img.shields.io/badge/PrimeReact-9.6.0-green
-
 🚀 Features
 📊 Data Table - Display artwork information in a professional table
 
