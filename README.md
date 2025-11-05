@@ -29,6 +29,7 @@ Frontend Framework: React 18 with TypeScript
 
 Build Tool: Vite
 
+<<<<<<< HEAD
 UI Components: PrimeReact
 
 Styling: PrimeFlex + CSS
@@ -220,3 +221,28 @@ Screenshots
 ![alt text](public/screenshots/image.png)
 ![alt text](public/screenshots/main1.png)
 ![alt text](public/screenshots/main2.png)
+=======
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+      // Enable lint rules for React
+      reactX.configs['recommended-typescript'],
+      // Enable lint rules for React DOM
+      reactDom.configs.recommended,
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+<img width="1810" height="935" alt="image" src="https://github.com/user-attachments/assets/f311a097-cb58-4305-b9bd-f27888d10d69" />
+
+```
+>>>>>>> 7aa8f012efbab911d7214d2e45bb643a5668b8a1
