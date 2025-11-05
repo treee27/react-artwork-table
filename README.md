@@ -217,4 +217,6 @@ PrimeReact for the excellent UI components
 Vite for the fast build tool
 
 Screenshots
-C:\Users\Darshan\artwork-table\public\screenshots\image.png
+![alt text](public/screenshots/image.png)
+![alt text](public/screenshots/main1.png)
+![alt text](public/screenshots/main2.png)
