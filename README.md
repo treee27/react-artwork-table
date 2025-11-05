@@ -9,33 +9,22 @@ https://img.shields.io/badge/PrimeReact-9.6.0-green
 
 🚀 Features
 📊 Data Table - Display artwork information in a professional table
-
 🔄 Server-Side Pagination - Fetch data per page without storing all data
-
 ✅ Persistent Row Selection - Selections persist when navigating between pages
-
 🎯 Custom Selection Overlay - Select specific number of rows through input field
-
 📱 Responsive Design - Works on desktop and mobile devices
-
 ⚡ Fast Development - Built with Vite for optimal performance
-
 🏷️ Type Safety - Full TypeScript implementation
-
 🎨 Modern UI - PrimeReact components with professional styling
 
 🛠️ Technologies Used
 Frontend Framework: React 18 with TypeScript
-
 Build Tool: Vite
 
 <<<<<<< HEAD
 UI Components: PrimeReact
-
 Styling: PrimeFlex + CSS
-
 HTTP Client: Axios
-
 Icons: PrimeIcons
 
 Package Manager: npm
@@ -51,41 +40,34 @@ No mass data storage	✅
 No prefetching pages	✅
 Individual row selection	✅
 Select all on current page	✅
+
 🎨 Data Fields Displayed
 Title - Name of the artwork
-
 Place of Origin - Where the artwork was created
-
 Artist Display - Artist information
-
 Inscriptions - Any inscriptions on the artwork
-
 Date Start - Start date of creation
-
 Date End - End date of creation
 
-📦 Installation
-Prerequisites
-Node.js (version 16 or higher)
 
+📦 Installation Prerequisites
+
+Node.js (version 16 or higher)
 npm or yarn
 
-Steps
-Clone the repository
-
+Steps Clone the repository
 bash
 git clone https://github.com/YOUR_USERNAME/react-artwork-table.git
 cd react-artwork-table
 Install dependencies
-
 bash
 npm install
 Start the development server
-
 bash
 npm run dev
 Open your browser
 Navigate to http://localhost:3000 to view the application
+
 
 🏗️ Build for Production
 bash
@@ -99,18 +81,15 @@ This application can be deployed to any static hosting service:
 
 Netlify
 Build command: npm run build
-
 Publish directory: dist
-
 Cloudflare Pages
 Build command: npm run build
-
 Build output directory: dist
 
 Vercel
 Build command: npm run build
-
 Output directory: dist
+
 
 📁 Project Structure
 text
@@ -127,29 +106,22 @@ vite.config.ts            # Vite configuration
 tsconfig.json             # TypeScript configuration
 .gitignore                # Git ignore rules
 README.md                 # Project documentation
+
 🔧 Key Implementation Details
 Persistent Selection Strategy
 Uses global Set objects to track selected and deselected artwork IDs
-
 No prefetching of data from other pages
-
 Selections persist across page navigation
-
 Efficient memory usage
-
 Server-Side Pagination
 Fetches data per page from the API
-
 No client-side storage of all data
-
 Proper loading states during data fetching
-
 Custom Selection Overlay
 Allows users to input number of rows to select
-
 Intelligently selects available rows on current page
-
 Provides feedback for partial selections
+
 
 🎯 API Integration
 The application uses the Art Institute of Chicago API:
@@ -167,12 +139,10 @@ Selecting Rows
 Click checkboxes to select/deselect individual rows
 
 Use "Select All" checkbox to select all rows on current page
-
 Use "Custom Select" button to select specific number of rows
 
 Navigation
 Use pagination controls at the bottom to navigate between pages
-
 Selected rows persist when changing pages
 
 Clearing Selections
